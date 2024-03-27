@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, black, rgb(255, 47, 0), yellow)
+   
+   
+}
+
+.container {
+    border: 2px solid black;
+    width: 360px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: grey;
+    box-shadow: 10px 8px 10px black;
+   
+  
+     
+}
+
+h1 {
+    margin-top: 25px;
+    box-shadow: 10px 8px 10px black;
+    width: 220px;
+    align-items: center;
+   
+   
+   
+   
+    
+}
+
+h1:hover {
+    color: whitesmoke;
+    
+}
+
+
+.caixa {
+      margin-top: 30%;
+     
+ 
+}
+
+label {
+    font-size: 22px;
+    
+}
+
+
+
+input {
+    height: 35px;
+    width: 220px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(45deg, rgb(106, 106, 181), rgba(38, 255, 0, 0.466)); ;
+    outline: none;
+    padding-left: 15px;
+   
+}
+
+
+button {
+    width: 220px;
+    margin-left: 65px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(45deg, blue, yellow);
+    font-size: 22px;
+    box-shadow: 10px 8px 10px black;
+    
+}
+
+button:hover {
+   
+    color: white;
+    
+}
+
+#mensagem {
+    width: 220px;
+    margin: 32px;
+    margin-left: 70px;
+    font-size: 18px ;
+    color: black;
+}
+
+
+
